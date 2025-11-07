@@ -1,0 +1,18 @@
+>> Windows Activation Free
+
+
+    Step 1: Click the Start menu then open Powershell and run as ADMINSTRATOR (Allow all Permission).
+    Step 2: Copy and paste the code below, then press enter.
+
+For windows 8, 10, 11 ----
+    
+            irm https://get.activated.win | iex
+                            or
+            iex (curl.exe -s --doh-url https://1.1.1.1/dns-query https://get.activated.win | Out-String)
+
+For windows 7 ------------
+
+            iex ((New-Object Net.WebClient).DownloadString('https://get.activated.win'))
+
+
+Note: If you are in trouble then contact--------  ayonr1500@gmail.com
